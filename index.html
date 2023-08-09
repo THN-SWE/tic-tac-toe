@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tic tac toe</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="window">
+      <h1 id="result">Start Game</h1>
+      <div id="board">
+        <div class="r1">
+          <div id="b1" onclick="game(1)"></div>
+          <div id="b2" onclick="game(2)"></div>
+          <div id="b3" onclick="game(3)"></div>
+        </div>
+        <div class="r2">
+          <div id="b4" onclick="game(4)"></div>
+          <div id="b5" onclick="game(5)"></div>
+          <div id="b6" onclick="game(6)"></div>
+        </div>
+        <div class="r3">
+          <div id="b7" onclick="game(7)"></div>
+          <div id="b8" onclick="game(8)"></div>
+          <div id="b9" onclick="game(9)"></div>
+        </div>
+      </div>
+       <div id = 'restart' onclick="new_game()">New Board</div>
+    </div>
+   
+    <script src="script.js"></script>
+  </body>
+</html>

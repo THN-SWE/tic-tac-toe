@@ -1,0 +1,53 @@
+#window {
+  background-color: antiquewhite;
+  margin: 0;
+}
+
+#board {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+
+  position: relative;
+  top: 10vh;
+}
+
+#board > div {
+  display: flex;
+}
+
+#board > div > div {
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  color: whitesmoke;
+  background-color: rgb(185, 139, 139);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#result {
+  text-align: center;
+  color: tomato;
+  font-size: 64px;
+}
+#restart {
+  padding: 10px 0;
+  font-size: 32px;
+  color: tomato;
+  background-color: beige;
+  cursor: pointer;
+  width: 304px;
+  position: absolute;
+  top: 20vh;
+  left:39%;
+
+    display: flex;
+  align-items: center;
+  justify-content: center;
+   
+  
+  
+}
